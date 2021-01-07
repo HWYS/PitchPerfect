@@ -32,10 +32,10 @@ class PlaySoundsViewController: UIViewController {
         super.viewDidLoad()
         setupAudio()
         // Do any additional setup after loading the view.
-        setButtonImageAspectRation(buttons: [snailButton, chimpunkButton, rabbitButton, vaderButton, echoButton, reverbButton, stopButton])
+        setButtonImageAspectRatio(buttons: [snailButton, chimpunkButton, rabbitButton, vaderButton, echoButton, reverbButton, stopButton])
     }
     
-    func setButtonImageAspectRation(buttons: [UIButton])  {
+    func setButtonImageAspectRatio(buttons: [UIButton])  {
         
         for btn in buttons {
             btn.imageView?.contentMode = .scaleAspectFit
